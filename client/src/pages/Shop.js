@@ -10,6 +10,8 @@ import { observer } from "mobx-react-lite";
 import {fetchBrands, fetchDevices, fetchTypes} from "../http/deviceAPI";
 import {Context} from "../index";
 import Pages from "../components/Pages";
+import '../style/shop.css'
+import Footer from "../components/Footer";
 
 
 const Shop = observer(() => {
@@ -25,25 +27,32 @@ const Shop = observer(() => {
   }, [])
 
   useEffect(() => {
-    fetchDevices(device.selectedType.id, device.selectedBrand.id, device.page, 2).then(data => {
+    fetchDevices(device.selectedType.id, device.selectedBrand.id, device.page, 9).then(data => {
       device.setDevices(data.rows)
       device.setTotalCount(data.count)
     })
   }, [device.page, device.selectedType, device.selectedBrand,])
 
   return (
-    <Container>
-      <Row className="mt-2">
-        <Col md={3}>
-          <TypeBar/>
-        </Col>
-        <Col md={9}>
-          <BrandBar/>
-          <DeviceList/>
-          <Pages/>
-        </Col>
-      </Row>
-    </Container>
+    <div class="intro">
+      <div class="intro_container"></div>
+      <Container>
+        <Row className="mt-4">
+          <Col md={2}>
+            <TypeBar/>
+          </Col>
+          <Col md={9}>
+            <BrandBar/>
+            <Pages/>
+            <DeviceList/>
+            <Pages/>
+          </Col>
+        </Row>
+      </Container>
+      <Footer/>
+    </div>
+    
+
   );
 });
 

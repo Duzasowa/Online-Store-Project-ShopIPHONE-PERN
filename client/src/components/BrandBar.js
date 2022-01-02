@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import {observer} from "mobx-react-lite";
 import {Context} from "../index";
-import {Card, Row} from "react-bootstrap";
+import {Button, Card, Row} from "react-bootstrap";
 
 const BrandBar = observer(() => {
   const {device} = useContext(Context)
@@ -9,7 +9,8 @@ const BrandBar = observer(() => {
   return (
     <Row  md={4} className="g-4 d-flex text-center">
         {device.brands.map(brand =>
-          <Card
+          <Button
+            variant="outline-secondary"
             style={{cursor:'pointer'}}
             key={brand.id}
             className="p-3"
@@ -17,7 +18,7 @@ const BrandBar = observer(() => {
             border={brand.id === device.selectedBrand.id ? 'danger' : 'light'}
           >
             {brand.name}
-          </Card>
+          </Button>
         )}
     </Row>
   );

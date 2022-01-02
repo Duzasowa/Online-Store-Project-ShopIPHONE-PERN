@@ -1,0 +1,9 @@
+.intro_container{
+  height: 360px;
+  width: 100%;
+  color: gray;
+  background-image: url(../images/intro3.jpg); 
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
