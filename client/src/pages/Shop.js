@@ -36,20 +36,18 @@ const Shop = observer(() => {
   return (
     <div class="intro">
       <div class="intro_container"></div>
-      <Container>
-        <Row className="mt-4">
-          <Col md={2}>
-            <TypeBar/>
-          </Col>
-          <Col md={9}>
-            <BrandBar/>
-            <Pages/>
-            <DeviceList/>
-            <Pages/>
-          </Col>
-        </Row>
-      </Container>
-      <Footer/>
+        <div class="conteiner">
+          <div class="brand_container">
+            <div class="brandbar">
+              <BrandBar/>
+            </div>
+            <div class="device_type_container">
+              <div class="typebar"><TypeBar/></div>
+              <div class="device"><DeviceList/></div>
+            </div>
+          </div>
+          <Pages/>
+        </div>
     </div>
     
 

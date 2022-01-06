@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import {Context} from "./index";
 import {Spinner} from "react-bootstrap";
 import {check} from "./http/userAPI";
+import Footer from "./components/Footer";
 
 const App = observer(() => {
   const {user} = useContext(Context)
@@ -27,6 +28,7 @@ const App = observer(() => {
     <BrowserRouter>
       <NavBar />
       <AppRouter />
+      <Footer />
     </BrowserRouter>
   );
 });

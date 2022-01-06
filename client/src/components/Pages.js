@@ -13,7 +13,7 @@ const Pages = observer(() => {
   }
 
   return (
-    <Pagination className="mt-3"  style={{marginLeft: 400}}>
+    <Pagination className="mt-3"  style={{ paddingTop: 220, marginLeft: 950}}>
       {pages.map(page =>
         <Pagination.Item
           key={page}

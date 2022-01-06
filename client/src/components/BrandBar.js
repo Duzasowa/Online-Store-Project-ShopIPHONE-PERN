@@ -7,13 +7,13 @@ const BrandBar = observer(() => {
   const {device} = useContext(Context)
 
   return (
-    <Row  md={4} className="g-4 d-flex text-center">
+    <Row  md={4} className="g-2 d-flex text-center" style={{marginLeft: 70}} >
         {device.brands.map(brand =>
           <Button
             variant="outline-secondary"
-            style={{cursor:'pointer'}}
+            style={{cursor:'pointer', maxWidth:'200px'}}
             key={brand.id}
-            className="p-3"
+            className="p-2"
             onClick={() => device.setSelectedBrand(brand)}
             border={brand.id === device.selectedBrand.id ? 'danger' : 'light'}
           >
