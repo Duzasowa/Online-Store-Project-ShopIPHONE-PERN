@@ -1,7 +1,8 @@
 import React from "react";
 import TypeBar from "../components/TypeBar";
 import {useContext, useEffect} from 'react';
-import {Container} from "react-bootstrap";
+import {Button, Container} from "react-bootstrap";
+import { SHOP_ROUTE, ADMIN_ROUTE } from "../utils/consts";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import BrandBar from "../components/BrandBar";
@@ -36,18 +37,18 @@ const Shop = observer(() => {
   return (
     <div class="intro">
       <div class="intro_container"></div>
-        <div class="conteiner">
           <div class="brand_container">
             <div class="brandbar">
               <BrandBar/>
             </div>
+            <Button style={{cursor:'pointer', fontSize: '10px', marginLeft: '140px'}} variant="outline-secondary" href="/">ALL PRODUCTS</Button>
             <div class="device_type_container">
               <div class="typebar"><TypeBar/></div>
               <div class="device"><DeviceList/></div>
             </div>
           </div>
           <Pages/>
-        </div>
+
     </div>
     
 

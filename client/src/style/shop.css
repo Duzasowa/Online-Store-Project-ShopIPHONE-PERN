@@ -34,17 +34,22 @@ hr {
 
 
 /* Container */
-.container {
+.container_shop {
   width: 100%;
   
 }
 
+.intro{
 
+}
 
 .intro_container{
   height: 360px;
   width: 100%;
   color: gray;
+  z-index: -1;
+  
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   background-image: url(../images/intro3.jpg); 
   text-align: center;
   -webkit-background-size: cover;
@@ -52,7 +57,7 @@ hr {
 }
 
 .brandbar{
-  padding-left: 500px;
+  padding-left: 540px;
   padding-top: 50px;
 }
 
