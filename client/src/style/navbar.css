@@ -1,0 +1,103 @@
+.header{
+  z-index: auto;
+  width: 100%;
+  background-color: #000;
+}
+
+/* -------------The upper part of Navbar----------- */
+.header_wrapper{
+  
+}
+
+.header_top{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-items: stretch;
+  height: 80px;
+  padding: var(--wb-spacing-xs) 0;
+}
+
+.header_icon{
+  
+  width: 64px;
+  height: 64px;
+  background-image: url(../images/apple-china.jpg); 
+  
+  background-size: cover;
+}
+
+
+.header_title{
+  
+  color: aliceblue;
+  text-decoration: none;
+}
+
+
+.header_dd{
+  
+}
+
+.header_name{
+  font-size: 30px;
+  padding-top: 13px;
+  padding-left: 100px;
+}
+
+.header_search{
+  color: azure;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+/* ---------------------The lower part of Navbar------------------------ */
+
+.header_navigation{
+
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-items: stretch;
+  height: 80px;
+  padding: var(--wb-spacing-xs) 0;
+
+}
+
+.header_desktop{
+  width: 100%;
+  border-top: 1px solid #666;
+}
+
+.header_navigation_menu{
+
+}
+
+.header_button_menu{
+ 
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+  min-height: 56px;
+}
+
+.menu_button{
+  padding-right: 50px;
+  color: white;
+  text-decoration: none;
+}
+
