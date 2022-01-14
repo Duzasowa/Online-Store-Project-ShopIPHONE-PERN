@@ -36,7 +36,29 @@ const Shop = observer(() => {
 
   return (
     <div class="intro">
-      <div class="intro_container"></div>
+      <div class="intro_container">
+        <div class="stage_content">
+          <div class="stage_text">
+            <div class="stage_text-column">
+              <h1 class="stage_title">
+                <p>Your device Apple</p>
+                <p>without leaving home.</p>
+              </h1>
+              <h2 class="stage_description">
+                <p>Check available products now.</p>
+              </h2>
+            </div>
+          </div>
+          {/* <------------------------> */}
+          <div class="stage_under-text">
+            <div class="grid_col">
+              <div class="stage_grid">
+                 <a class="stage_button">List Online</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
           <div class="brand_container">
             <div class="brandbar">
               <BrandBar/>

@@ -43,18 +43,114 @@ hr {
 
 }
 
+/* <------------------------OPEN INTRO CONTAINER (BANER)-------------------> */
 .intro_container{
-  height: 700px;
+  height: 800px;
   width: 100%;
   color: gray;
   z-index: -1;
-  
   /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
   background-image: url(../images/intro.jpg); 
   text-align: center;
   -webkit-background-size: cover;
   background-size: cover;
 }
+
+.stage_content{
+  padding: 90px;
+  margin: 0 auto;
+  width: 700px;
+  height: 700px;
+  vertical-align: middle;
+  display: table-cell;
+  width: var(--wb-grid-content-width);
+}
+
+.stage_text{
+  display: flex;
+  flex-flow: wrap;
+}
+
+.stage_text-column{
+
+}
+
+.stage_title{
+  text-align: start;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  font: inherit;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.stage_description{
+  padding-top: 17px;
+  padding-bottom: 17px;
+  text-align: start;
+  color: #bfbfbf;
+  -webkit-font-smoothing: antialiased;
+  font: inherit;
+  font-family: MBCorpo Text,DaimlerCS-Regular,sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+/* <------------------------> */
+.stage_under-text{
+  display: flex;
+  flex-flow: wrap;
+}
+
+.grid_col{
+
+}
+
+.stage_grid{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  width: 100%;
+  padding: var(--wb-spacing-m) 0;
+}
+
+.stage_button{
+  padding: 11px 23px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #fff;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background .1s linear, color .1s linear;
+}
+
+.stage_button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* <------------------------ CLOSED INTRO CONTAINER (BANER)-------------------> */
+
+
+
 
 .brandbar{
   padding-left: 540px;
@@ -78,3 +174,5 @@ hr {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+

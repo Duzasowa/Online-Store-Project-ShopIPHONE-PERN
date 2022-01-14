@@ -10,7 +10,7 @@
 }
 
 .header_top{
-  width: 90%;
+  width: 92%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -33,14 +33,21 @@
 
 
 .header_title{
-  
-  color: aliceblue;
+  color: white;
   text-decoration: none;
 }
 
+.header_title:hover {
+  color: white;
+}
 
-.header_dd{
-  
+.header_title:hover:after,
+.header_title.active:after {
+  opacity: 1;
+}
+
+.header_title.active {
+  color: white;
 }
 
 .header_name{
@@ -49,11 +56,64 @@
   padding-left: 100px;
 }
 
-.header_search{
+.header_top_menu{
   color: azure;
   display: flex;
   flex: 1;
   justify-content: flex-end;
+}
+
+.header_search-input{
+  padding: 10px 0px 10px 20px;
+  color: var(--wb-color-white);
+  background-color: #222;
+  border: 1px solid var(--wb-grey-15);
+  text-overflow: ellipsis
+}
+
+.header_input-controls{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: var(--wb-color-white);
+  background-color: #222;
+}
+
+.header_wand-container{
+  background-color: #222;
+  width: 1px;
+  height: 43px;
+}
+
+.header_wand{
+  margin-top: 8px;
+  width: 1px;
+  height: 30px;
+
+  background-color: #666;
+}
+
+.header_input-icon{
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-top: 4px;
+  width: 18px;
+  height: 18px;
+  background-color: #222;
+  background-image: url(../images/search.png); 
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.header_item-icon{
+  width: 22px;
+  height: 22px;
+  margin-left: 25px;
+  margin-top: 11px;
+  background-image: url(../images/user.png); 
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 /* ---------------------The lower part of Navbar------------------------ */
@@ -86,7 +146,7 @@
 }
 
 .header_button_menu{
- 
+  cursor: pointer;
   display: flex;
 
   flex-direction: row;
@@ -97,7 +157,20 @@
 
 .menu_button{
   padding-right: 50px;
-  color: white;
+  color: #bfbfbf;
   text-decoration: none;
+}
+
+.menu_button:hover {
+  color: white;
+}
+
+.menu_button:hover:after,
+.menu_button.active:after {
+  opacity: 1;
+}
+
+.menu_button.active {
+  color: white;
 }
 

@@ -1,0 +1,152 @@
+/* *,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 180%;
+  background-color: #383838;
+} */
+
+.popup{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.8s ease 0s;
+}
+
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup:target .popup_content {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.popup_body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+  margin-left: 1200px;
+  padding-bottom: 500px;
+}
+
+.popup_area{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.popup_content {
+  background-color: #fff;
+  color: #000;
+  max-width: 800px;
+  width: 330px;
+  padding: 30px;
+  position: relative;
+  transition: all 0.8s ease 0s;
+  opacity: 0;
+  transform: translate(0px, -100%);
+}
+
+/* .popup_close{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+} */
+
+.popup_title {
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 0px 0px 1em 0px;
+}
+
+.popup_text {
+  -webkit-font-smoothing: antialiased;
+  font: inherit;
+  font-family: MBCorpo Text,DaimlerCS-Regular,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.popup_btns{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.popup_button-up {
+  margin-top: 20px;
+  width: 270px;
+  padding: 11px 23px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #fff;
+
+
+  background-color: #00adef;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background .1s linear, color .1s linear;
+}
+
+.popup_button-up:hover {
+  background-color: #333;
+  color: white;
+}
+
+.popup_button-down {
+  width: 270px;
+  padding: 11px 23px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #fff;
+
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  color: #00adef;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background .1s linear, color .1s linear;
+}
+
+.popup_button-down:hover {
+  background-color: #333;
+  color: white;
+}
