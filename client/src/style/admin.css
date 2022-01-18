@@ -1,0 +1,74 @@
+.admin_header{
+  width: 100%;
+  height: 700px;
+
+}
+
+.admin_text{
+  padding-top: 100px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 600px;
+}
+
+.admin_description{
+  padding-left: 26px;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0px 0px 1em 0px;
+}
+
+.admin_container{
+  padding: 140px 300px 100px 300px;
+}
+
+.admin_inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin_item{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  background-color: #666;
+}
+
+.admin_image{
+  margin-bottom: 12px;
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/adminPageImage/text.png); 
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.admin_image-2{
+  margin-bottom: 12px;
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/adminPageImage/brand-image.png); 
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.admin_image-3{
+  margin-bottom: 12px;
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/adminPageImage/devices.png); 
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}

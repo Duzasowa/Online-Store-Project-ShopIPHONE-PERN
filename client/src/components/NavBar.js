@@ -62,6 +62,25 @@ const NavBar = observer(() => {
                 <a class="menu_button">Purchase and financing</a>
                 <a class="menu_button">Servis</a>
                 <a class="menu_button">Technologies and innovations</a>
+                {user.isAuth ?
+                  <div class="main_button">
+                    <div class="menu_button"
+                      // style={{paddingLeft: 710}} 
+                      onClick={() => history.push(ADMIN_ROUTE)} 
+                    >
+                      Admin Panel
+                    </div>
+                    <div class="menu_button"
+                      onClick={() => logOut()}
+                    >
+                      Log off
+                    </div>
+                  </div>
+                  :
+                  <div class="menu_button" style={{paddingLeft: 710}} >
+                    <a variant={"outline-light"} onClick={() => history.push(LOGIN_ROUTE)}>Authorization</a>
+                  </div>
+                }
               </div>
             </div>
         

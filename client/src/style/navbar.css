@@ -146,7 +146,6 @@
 }
 
 .header_button_menu{
-  cursor: pointer;
   display: flex;
 
   flex-direction: row;
@@ -156,6 +155,7 @@
 }
 
 .menu_button{
+  cursor: pointer;
   padding-right: 50px;
   color: #bfbfbf;
   text-decoration: none;
@@ -174,3 +174,13 @@
   color: white;
 }
 
+
+
+.puppet{
+  /* ------------------------------MAIN BUTTON------------------------------- */
+}
+
+.main_button{
+  padding-left: 710px;
+  display: flex;
+}

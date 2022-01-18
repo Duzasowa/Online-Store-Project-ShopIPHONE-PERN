@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -29,7 +31,7 @@ hr {
 
 /* Page */
 .page {
-  overflow: hidden;
+  overflow: none;
 }
 
 
@@ -40,13 +42,13 @@ hr {
 }
 
 .intro{
-
+  width: 1893px;
 }
 
 /* <------------------------OPEN INTRO CONTAINER (BANER)-------------------> */
 .intro_container{
-  height: 800px;
-  width: 100%;
+  height: 727px;
+  width: 1905px;
   color: gray;
   z-index: -1;
   /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
