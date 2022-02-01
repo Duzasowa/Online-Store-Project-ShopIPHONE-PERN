@@ -1,0 +1,61 @@
+.wd1-iarspct {
+  
+}
+
+.wd2-vwrqfbh {
+  width: 98%;
+  height: 1020px;
+  transform: none;
+  border-right: 1px solid #e8e8e8;
+}
+
+.wd3-vwvlycq {
+
+}
+
+.wd4-pejmxuy {
+
+}
+
+.wd5-eeervjw {
+
+}
+
+.wd6-dpsrfrw {
+  -webkit-font-smoothing: antialiased;
+  font: inherit;
+  font-family: var(--wb-font-text-bold);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  -webkit-padding-after: var(--wb-spacing-xxs);
+  padding-block-end: var(--wb-spacing-xxs);
+  color: var(--wb-grey-20);
+  padding-bottom: 10px;
+}
+
+.wd7-uanrfzw {
+  flex-direction: column;
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  -ms-scroll-snap-type: x proximity;
+  scroll-snap-type: x proximity;
+  scroll-padding-left: 0;
+  height: 100%;
+}
+
+.wd8-vsvjdjs {
+  text-decoration: none;
+  font-family: var(--wb-font-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 9px 2px;
+  color: var(--wb-grey-45);
+  scroll-snap-align: start;
+  line-height: 24px;
+  background: none;
+}

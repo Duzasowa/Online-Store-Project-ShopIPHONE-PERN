@@ -1,21 +1,25 @@
 import React, {useContext} from 'react';
 import {Context} from "../index";
-import {NavLink, Button, Nav, Navbar} from "react-router-dom";
-import { ADMIN_ROUTE, SHOP_ROUTE, LOGIN_ROUTE } from '../utils/consts';
+import { ADMIN_ROUTE } from '../utils/consts';
 import {observer} from "mobx-react-lite";
-import Container from "react-bootstrap/Container";
 import { useHistory } from 'react-router-dom';
 import '../style/navbar.css';
 import '../style/popup.css';
-import Popap from '../pages/Popap';
+import Popup from '../Popups/Popup';
+import Consulting from '../Popups/Consulting';
 
 const NavBar = observer(() => {
   const {user} = useContext(Context)
   const history = useHistory()
 
+  const storege = () => {
+    localStorage.clear();
+  }
+
   const logOut = () => {
     user.setUser({})
     user.setIsAuth(false)
+    localStorage.clear()
   }
 
   return (
@@ -37,16 +41,22 @@ const NavBar = observer(() => {
             </div>
             <div class="header_input-controls">
               <div class="header_input-icon">
-
+                  {/* ICON */}
               </div>
             </div>
             <div class="header_item-container">
               <div class="header_item-profile">
-                <a href="#popup">
-                  <div class="header_item-icon">
-                    <Popap/>
+                <div class="syrybf">
+                  <div class="cjbxog">
+                    <div class="dplzxs">
+                      <a class="mmztxu" href="#popup">
+                        <div class="header_item-icon">
+                          <Popup/>
+                        </div>
+                      </a>
+                    </div>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
           </div>
@@ -54,37 +64,43 @@ const NavBar = observer(() => {
 
         {/* /---------------The lower part of Navbar-----------/ */}
         <div class="header_desktop">
-        <div class="header_navigation">
-          
+          <div class="header_navigation">
             <div class="header_navigation_menu">
-              <div class="header_button_menu">
-                <a class="menu_button">Online consulting</a>
-                <a class="menu_button">Purchase and financing</a>
-                <a class="menu_button">Servis</a>
-                <a class="menu_button">Technologies and innovations</a>
-                {user.isAuth ?
-                  <div class="main_button">
-                    <div class="menu_button"
-                      // style={{paddingLeft: 710}} 
-                      onClick={() => history.push(ADMIN_ROUTE)} 
-                    >
-                      Admin Panel
-                    </div>
-                    <div class="menu_button"
-                      onClick={() => logOut()}
-                    >
-                      Log off
-                    </div>
+              <button class="menu_button">
+                <Consulting/>
+                <a class="menu_text" href="#consulting">Online consulting</a>
+              </button>
+              <button class="menu_button">
+                <a class="menu_text">Purchase and financing</a>
+              </button>
+              <button class="menu_button">
+                <a class="menu_text">Servis</a>
+              </button>
+              <button class="menu_button">
+                <a class="menu_text">Technologies and innovations</a>
+              </button>
+              {user.isAuth ?
+                <div class="main_button">
+                  <div class="menu_button"
+                    onClick={() => history.push(ADMIN_ROUTE)} 
+                  >
+                    Admin Panel
                   </div>
-                  :
-                  <div class="menu_button" style={{paddingLeft: 710}} >
-                    <a variant={"outline-light"} onClick={() => history.push(LOGIN_ROUTE)}>Authorization</a>
+                  <div class="menu_button"
+                    onClick={() => logOut()}
+                  >
+                    Log off
                   </div>
-                }
-              </div>
+                </div>
+                :
+                <div class="menu_button" style={{paddingLeft: 710}} >
+                  {/* <a variant={"outline-light"} onClick={() => history.push(LOGIN_ROUTE)}>Authorization</a> */}
+                </div>
+              }
+              
+
             </div>
-        
-        </div>
+          </div>
         </div>
 
       </div>

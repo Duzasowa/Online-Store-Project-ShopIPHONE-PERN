@@ -1,25 +1,46 @@
 import React from 'react';
-import {Card, Col} from "react-bootstrap";
+import {Col} from "react-bootstrap";
 import Image from "react-bootstrap/Image";
-import star from '../assets/star.png'
+// import star from '../assets/star.png'
 import {useHistory} from "react-router-dom"
 import {DEVICE_ROUTE} from "../utils/consts";
+import '../style/deviceItem.css'
 
 const DeviceItem = ({device}) => {
     const history = useHistory()
     return (
         <Col md={4} className={"mt-3"} >
-            <Card style={{width: 210, height: 300,  cursor: 'pointer', margin: 12, textAlign: "center"}} border={"grey"} border-r onClick={() => history.push(DEVICE_ROUTE + '/' + device.id)}>
-                <Image width={200} height={200} src={process.env.REACT_APP_API_URL + device.img}/>
-                <div className="text-black-50 mt-1 d-flex justify-content-between align-items-center">
-                    <div style={{ paddingLeft:22 }} >Device...</div>
-                    <div className="d-flex align-items-center">
-                        <div  >{device.rating}</div>
-                        <Image style={{ marginRight: 10 }} width={18} height={18} src={star}/>
+            <div class="di2-oeulnfy">
+                <div class="di3-sptuhsw">
+                    <div class="di4-xcmbbfi">
+                        <div class="di5-egegwfs">
+                            <div class="di6-wegegs" onClick={() => history.push(DEVICE_ROUTE + '/' + device.id)}>
+                                <div class="di7-dfgnfs">
+                                    {device.name}
+                                </div>
+                                <div class="di8-ugjsgrk">
+                                    <div class="di9-jpagjuy">
+                                        Available products
+                                    </div>
+                                </div>
+                                <div class="di10-jpfdhfd">
+                                    <Image width={200} height={200} src={process.env.REACT_APP_API_URL + device.img}/>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+                                        
+                                            {/* Product evaluation */}
+                    {/* <div class="di5-ugjsgrk"className="d-flex align-items-center">
+                        <div class="di6-jpagjuy" >
+                            {device.rating}
+                        </div>
+                        <Image style={{ marginRight: 10 }} width={18} height={18} src={star}/>
+                    </div> */}
+                    
                 </div>
-                <div style={{ paddingLeft:10 }}>{device.name}</div>
-            </Card>
+            </div>
         </Col>
     );
 };

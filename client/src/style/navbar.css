@@ -5,9 +5,9 @@
 }
 
 /* -------------The upper part of Navbar----------- */
-.header_wrapper{
+/* .header_wrapper{
   
-}
+} */
 
 .header_top{
   width: 92%;
@@ -106,11 +106,48 @@
   background-size: cover;
 }
 
+/* --------------------- Login button settings------------------------ */
+
+.header_item-container {
+
+  display: flex;
+}
+
+.header_item-profile {
+
+  display: flex;
+}
+
+.syrybf {
+  margin-left: 10px;
+  width: 65px;
+  border: 1px solid #111;
+  transition: color .2s ease-in-out;
+  cursor: pointer;
+}
+
+.syrybf:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* .cjbxog {
+
+}
+
+.dplzxs {
+
+}
+
+.mmztxu{
+
+} */
+
 .header_item-icon{
+  margin-left: 20px;
+  margin-top: 10px;
   width: 22px;
   height: 22px;
-  margin-left: 25px;
-  margin-top: 11px;
   background-image: url(../images/user.png); 
   -webkit-background-size: cover;
   background-size: cover;
@@ -118,23 +155,9 @@
 
 /* ---------------------The lower part of Navbar------------------------ */
 
-.header_navigation{
+/* .header_navigation{
 
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  justify-items: stretch;
-  height: 80px;
-  padding: var(--wb-spacing-xs) 0;
-
-}
+} */
 
 .header_desktop{
   width: 100%;
@@ -142,45 +165,99 @@
 }
 
 .header_navigation_menu{
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 56px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 80px;
+  position: relative;
 }
 
 .header_button_menu{
   display: flex;
 
   flex-direction: row;
-
+  margin-left: 20px;
   align-items: center;
   min-height: 56px;
 }
 
-.menu_button{
-  cursor: pointer;
-  padding-right: 50px;
-  color: #bfbfbf;
+.menu_button {
+  border: 0;
+  background-color: black;
+  padding: 15px;
+  border-top: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
   text-decoration: none;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-height: 56px;
+  margin: 0;
+  text-align: left;
+  list-style-type: none;
+
 }
 
 .menu_button:hover {
   color: white;
+  border-top: 1px solid #00ADEF;
 }
 
-.menu_button:hover:after,
-.menu_button.active:after {
+.menu_button:focus {
+  border-top: 1px solid #00ADEF;
+  color: white;
+}
+
+.menu_text{
+  font-size: 16px;
+  font-family: "MBCorpo Text", DaimlerCS-Regular, sans-serif;
+  cursor: pointer;
+  color: #bfbfbf;
+  text-decoration: none;
+}
+
+.menu_text:hover {
+  color: white;
+}
+
+
+.menu_text:hover:after,
+.menu_text.active:after {
   opacity: 1;
 }
 
-.menu_button.active {
+.menu_text.active {
   color: white;
 }
 
 
 
-.puppet{
-  /* ------------------------------MAIN BUTTON------------------------------- */
-}
+/* .puppet{
+  
+} */
 
 .main_button{
-  padding-left: 710px;
+  padding-left: 830px;
   display: flex;
+  color: #bfbfbf;
 }

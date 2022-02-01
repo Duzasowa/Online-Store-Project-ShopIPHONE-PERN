@@ -1,0 +1,74 @@
+/* .di2-oeulnfy {
+
+}
+
+.di3-sptuhsw {
+
+} */
+
+.di4-xcmbbfi {
+  text-align: center;
+  text-decoration: none;
+  color: var(--wb-grey-60);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+  position: relative;
+  padding: 0 4px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.di5-egegwfs { 
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.di6-wegegs {
+  width: 300px;
+  height: 300px;
+}
+
+.di6-wegegs:hover {
+  border: 1px solid #999;
+}
+
+.di7-dfgnfs {
+  -webkit-font-smoothing: antialiased;
+  font: inherit;
+  font-family: MBCorpo Title, DaimlerCAC-Regular, DaimlerCACArab-Regular, serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 2.5rem;
+  word-wrap: normal;
+  word-break: break-word;
+  text-decoration: none;
+  color: var(--wb-black);
+}
+
+.di8-ugjsgrk {
+  padding: 9px;
+}
+
+.di9-jpagjuy {
+  background: #E8E8E8;
+  border: 1px solid #E8E8E8;
+  border-radius: 13px;
+  color: #5C5C5C;
+  font-family: MBCorpo Title, DaimlerCAC-Regular, DaimlerCACArab-Regular, serif;
+  font-size: 10px;
+  display: inline-block;
+  max-width: 288px;
+  overflow: hidden;
+  padding: 4px 10px 4px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* .di10-jpfdhfd{
+
+} */

@@ -1,10 +1,6 @@
 import React from "react";
 import TypeBar from "../components/TypeBar";
 import {useContext, useEffect} from 'react';
-import {Button, Container} from "react-bootstrap";
-import { SHOP_ROUTE, ADMIN_ROUTE } from "../utils/consts";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import BrandBar from "../components/BrandBar";
 import DeviceList from "../components/DeviceList";
 import { observer } from "mobx-react-lite";
@@ -12,7 +8,6 @@ import {fetchBrands, fetchDevices, fetchTypes} from "../http/deviceAPI";
 import {Context} from "../index";
 import Pages from "../components/Pages";
 import '../style/shop.css'
-import Footer from "../components/Footer";
 
 
 const Shop = observer(() => {
@@ -59,18 +54,42 @@ const Shop = observer(() => {
           </div>
         </div>
       </div>
-          <div class="brand_container">
-            <div class="brandbar">
-              <BrandBar/>
-            </div>
-            <Button style={{cursor:'pointer', fontSize: '10px', marginLeft: '140px'}} variant="outline-secondary" href="/">ALL PRODUCTS</Button>
-            <div class="device_type_container">
-              <div class="typebar"><TypeBar/></div>
-              <div class="device"><DeviceList/></div>
+      
+      {/* CLOSED INTRO CONTAINER */}
+
+      {/* OPEN DEVICE CONTAINER */}
+
+      <div class="device">
+        <div class="device_container">
+          <div class="device_wb3">
+            <div class="device_container-wb">
+              <div class="device_wb3">
+                <div class="device_intro_text">
+                  <h1 class="wbtext_container">Model overview</h1>
+                </div>
+              </div>
+              <div class="device_wb3 brandbar_list">
+                <div class="wb4_brandbar_list">
+                  <section class="wb5_brandbar_list">
+                    <div class="wb6_brandbar_list">
+                      <BrandBar/>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div class="w7">
+                <div class="wb8_typebar">
+                 <TypeBar/>
+                </div>
+                <div class="wb9_devicelist">
+                  <DeviceList/>
+                </div>
+              </div>
             </div>
           </div>
-          <Pages/>
-
+        </div>
+      </div>
+      <Pages/>
     </div>
     
 

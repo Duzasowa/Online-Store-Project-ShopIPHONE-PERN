@@ -29,6 +29,11 @@ const Type = sequelize.define('type', {
   name: {type: DataTypes.STRING, unique: true, allowNull: false},
 })
 
+const Memory = sequelize.define('memory', {
+  id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
+  name: {type: DataTypes.STRING, unique: true, allowNull: false},
+})
+
 const Brand = sequelize.define('brand', {
   id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
   name: {type: DataTypes.STRING, unique: true, allowNull: false},
@@ -49,6 +54,9 @@ const TypeBrand = sequelize.define('type_brand', {
   id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
 })
 
+const MemoryBrand = sequelize.define('memory_brand', {
+  id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
+})
 
 User.hasOne(Basket)
 Basket.belongsTo(User)
@@ -61,6 +69,9 @@ BasketDevice.belongsTo(Basket)
 
 Type.hasMany(Device)
 Device.belongsTo(Type)
+
+Memory.hasMany(Device)
+Device.belongsTo(Memory)
 
 Brand.hasMany(Device)
 Device.belongsTo(Brand)
@@ -77,14 +88,19 @@ DeviceInfo.belongsTo(Device)
 Type.belongsToMany(Brand, {through: TypeBrand })
 Brand.belongsToMany(Type, {through: TypeBrand })
 
+Memory.belongsToMany(Brand, {through: MemoryBrand })
+Brand.belongsToMany(Memory, {through: MemoryBrand })
+
 module.exports = {
   User,
   Basket,
   BasketDevice,
   Device,
+  DeviceInfo,
   Type,
-  Brand,
-  Rating,
   TypeBrand,
-  DeviceInfo
+  Memory,
+  MemoryBrand,
+  Brand,
+  Rating
 }

@@ -2,7 +2,7 @@ import React from "react";
 import '../style/popup.css'
 
 
-const Popap = () => {
+const Popup = () => {
   return (
       <div id="popup" class="popup">
         <a href='' class="popup_area"></a>
@@ -21,4 +21,4 @@ const Popap = () => {
   );
 }
 
-export default Popap;
+export default Popup;
