@@ -1,0 +1,166 @@
+/* .iphonePage_intro {
+  
+} */
+
+/* ------The upper part-intro------ */
+
+.full_screen {
+  height: 800px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.full_screen-body {
+  margin-top: 30px;
+  padding-left: 480px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+  opacity: 0;
+  animation: ani 9.5s forwards;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.full_screen-title {
+  color: #000;
+  padding-left: 380px;
+  font-size: 40px;
+  line-height: 1.05;
+
+  letter-spacing: -0.015em;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+}
+
+.full_screen-text {
+  font-weight: 600;
+  color: #000;
+  font-size: 80px;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+}
+
+.full_screen_video {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+/* ------Advantages------ */
+
+
+.ip1-gghpjt {
+  display: flex;
+  height: 800px;
+  background-color: #000;
+}
+
+.ip2-bqjong {
+  text-align: left;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+  font-size: 70px;
+  margin-left: 90px;
+  padding-top: 300px;
+  padding-left: 200px;
+
+
+  color: white;
+}
+
+.ip3-hjhlgx {
+  margin-left: 200px;
+  width: 600px;
+  height: 900px;
+  background-image: url(../images/iphonePage/ccumug.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.ip3-hjhlgx-2 {
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+  font-size: 70px;
+  margin-left: 90px;
+  padding-top: 210px;
+  color: white;
+}
+
+.ip2-bqjong-2 {
+  margin-top: -240px;
+
+  padding-bottom: 100px;
+  margin-left: 250px;
+  width: 600px;
+  height: 900px;
+  background-image: url(../images/iphonePage/defmdi.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+/* ------Size------ */
+
+
+.iphonePage_content {
+  height: 900px;
+}
+
+.ip4-content_container {
+  position: relative;
+  justify-content: center;
+  padding-top: 200px;
+  align-items: center;
+  display: flex;
+  
+}
+
+.ip5-kfvzkn {
+  font-weight: 600;
+  margin-right: 100px;
+  font-size: 19px;
+}
+
+.ip6-mqimja {
+  font-size: 30px;
+  text-align: right;
+}
+
+.ip7-jwjqkc {
+  width: 321px;
+  height: 650px;
+
+  background-image: url(../images/iphonePage/IphoneProMax.png);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.ip8-zeynim {
+  margin-bottom: -61px;
+  margin-left: -100px;
+  width: 292px;
+  height: 588px;
+  background-image: url(../images/iphonePage/Iphone.png); 
+
+}
+
+.ip9-zfmksi{
+  padding-bottom: 10px;
+  font-weight: 600;
+  margin-left: 100px;
+  font-size: 19px;
+}
+
+.ip10-vbgtiq {
+  font-size: 30px;
+  text-align: left;
+}

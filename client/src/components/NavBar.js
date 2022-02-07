@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import {Context} from "../index";
-import { ADMIN_ROUTE } from '../utils/consts';
+import { ADMIN_ROUTE, DUMMY_ROUTE } from '../utils/consts';
 import {observer} from "mobx-react-lite";
 import { useHistory } from 'react-router-dom';
 import '../style/navbar.css';
@@ -71,13 +71,13 @@ const NavBar = observer(() => {
                 <a class="menu_text" href="#consulting">Online consulting</a>
               </button>
               <button class="menu_button">
-                <a class="menu_text">Purchase and financing</a>
+                <a class="menu_text" onClick={() => history.push(DUMMY_ROUTE)} >Purchase and financing</a>
               </button>
               <button class="menu_button">
-                <a class="menu_text">Servis</a>
+                <a class="menu_text" onClick={() => history.push(DUMMY_ROUTE)} >Servis</a>
               </button>
               <button class="menu_button">
-                <a class="menu_text">Technologies and innovations</a>
+                <a class="menu_text" onClick={() => history.push(DUMMY_ROUTE)} >Technologies and innovations</a>
               </button>
               {user.isAuth ?
                 <div class="main_button">
@@ -93,9 +93,10 @@ const NavBar = observer(() => {
                   </div>
                 </div>
                 :
-                <div class="menu_button" style={{paddingLeft: 710}} >
-                  {/* <a variant={"outline-light"} onClick={() => history.push(LOGIN_ROUTE)}>Authorization</a> */}
-                </div>
+                null
+                // <div class="menu_button" style={{paddingLeft: 710}} >
+                //   {/* <a variant={"outline-light"} onClick={() => history.push(LOGIN_ROUTE)}>Authorization</a> */}
+                // </div>
               }
               
 

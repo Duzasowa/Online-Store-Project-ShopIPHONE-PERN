@@ -1,8 +1,9 @@
 
 /* Footer */
 .footer {
+    width: 100%;
     padding-top: 65px;
-
+    position: absolute;
     background-color: #000000;
 }
 

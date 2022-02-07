@@ -1,8 +1,11 @@
 import React from "react";
-import '../style/consulting.css'
+import { DUMMY_ROUTE, IPHONEPAGE_ROUTE } from '../utils/consts';
+import { useHistory } from 'react-router-dom';
+import '../style/consulting.css';
 
 
 const Consulting = () => {
+  const history = useHistory()
   return (
     <div id="consulting" class="popups">
       <a href='#' class="popups_area"></a>
@@ -13,38 +16,38 @@ const Consulting = () => {
           <div class="rgjhzj">
             <div class="jgygwt">
               <div class="popups_text">
-                <a class="cqxedz">
-                  <p>Show all models</p>
+                <a class="cqxedz" onClick={() => history.push(IPHONEPAGE_ROUTE)}>
+                  <p>Iphone 13</p>
                 </a>
               </div>
               <div class="popups_text">
-                <a class="cqxedz">
-                  <p>Hybrid power supply</p>
+                <a class="cqxedz" onClick={() => history.push(DUMMY_ROUTE)}>
+                  <p>In the process ...</p>
                 </a>
               </div>
               <div class="popups_text">
-                <a class="cqxedz">
-                  <p>Electric voltage</p>
+                <a class="cqxedz" onClick={() => history.push(DUMMY_ROUTE)}>
+                  <p>In the process ...</p>
                 </a>
               </div>
               <div class="popups_text">
-                <a class="cqxedz">
-                  <p>Hatchback</p>
+                <a class="cqxedz" onClick={() => history.push(DUMMY_ROUTE)}>
+                  <p>In the process ...</p>
                 </a>
               </div>
               <div class="popups_text">
-                <a class="cqxedz">
-                  <p>Limousine</p>
+                <a class="cqxedz" onClick={() => history.push(DUMMY_ROUTE)}>
+                  <p>In the process ...</p>
                 </a>
               </div>
               <div class="popups_text">
-                <a class="cqxedz">
-                  <p>Van / Shooting Brake</p>
+                <a class="cqxedz" onClick={() => history.push(DUMMY_ROUTE)}>
+                  <p>In the process ...</p>
                 </a>
               </div>
               <div class="popups_text">
-                <a class="cqxedz">
-                  <p>Coupe</p>
+                <a class="cqxedz" onClick={() => history.push(DUMMY_ROUTE)}>
+                  <p>In the process ...</p>
                 </a>
               </div>
             </div>

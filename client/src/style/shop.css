@@ -52,7 +52,7 @@ hr {
   color: gray;
   z-index: -1;
   /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
-  background-image: url(../images/intro.jpg); 
+  background-image: url(../images/intro.jpg);  
   text-align: center;
   -webkit-background-size: cover;
   background-size: cover;
@@ -232,7 +232,7 @@ hr {
 }
 
 .brandbar_list {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .wbtext_container {

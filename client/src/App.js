@@ -1,13 +1,15 @@
 import React from "react";
 import {observer} from "mobx-react-lite";
 import { useState, useContext, useEffect} from "react"
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, useLocation } from "react-router-dom";
 import AppRouter from "./components/AppRouter";
 import NavBar from "./components/NavBar";
 import {Context} from "./index";
 import {Spinner} from "react-bootstrap";
 import {check} from "./http/userAPI";
 import Footer from "./components/Footer";
+import { ScrollToTop }from "./components/ScrollToTop";
+
 
 const App = observer(() => {
   const {user} = useContext(Context)
@@ -26,6 +28,7 @@ const App = observer(() => {
 
   return (
     <BrowserRouter>
+      <ScrollToTop/>
       <NavBar />
       <AppRouter />
       <Footer />

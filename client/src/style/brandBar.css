@@ -23,12 +23,13 @@
 }
 
 .bb6-wscnpnmv {
+  text-decoration:  none;
   width: 169px;
   height: 50px;
   border: 1px solid #272727;
   color: #333;
   text-transform: uppercase;
-  font-family: var(--wb-font-text-bold);
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
   background-color: white;
   transition: color .2s ease-in-out;
   font-size: 16px;
@@ -46,3 +47,8 @@
   background-color: #333;
   color: white;
 }
+
+/* .bb6-wscnpnmv:active {
+  background-color: #333;
+  color: white;
+} */

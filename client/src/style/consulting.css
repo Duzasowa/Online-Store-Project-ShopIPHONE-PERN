@@ -40,6 +40,7 @@
 }
 
 .popups_content {
+  z-index: 4;
   background-color: #fff;
   color: #000;
   max-width: 800px;

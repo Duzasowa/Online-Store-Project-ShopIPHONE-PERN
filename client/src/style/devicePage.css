@@ -1,0 +1,362 @@
+.device_page {
+  width: 1893px;
+
+  
+}
+
+.dn1-device_navbar {
+  width: 100%;
+  height: 60px;
+  
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.dn2-device_wrapper {
+  height: 40px;
+}
+
+.dn3-device_content {
+  display: flex;
+
+  max-width: 980px;
+  height: 40px;
+}
+
+.dn4-device_title {
+  padding-top: 6px;
+  height: 40px;
+}
+
+.dn5-device_name {
+  margin-left: 250px;
+  display: flex;
+  width: 500px;
+  height: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #0066CC;
+  font: inherit;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.dn6-device_price
+.dn7-device_content
+
+.dn8-device_navbar {
+  padding-top: 6px;
+  padding-left: 830px;
+  display: flex;
+}
+
+.dn9-device_navbar {
+  padding-right: 10px;
+  text-decoration: none;
+  color: #222;
+  font: inherit;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.dn10-device_navbar {
+  text-decoration: none;
+  color: #222;
+  font: inherit;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+
+/* -----------Styles for the bottom (right and left)----------- */
+
+.dp1-device_page-main {
+  width: 1893px;
+
+}
+
+/* .dp2-device_page-main2 {
+  
+} */
+
+.dp3-device_page-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 50px;
+  
+}
+
+.dp4-device_column {
+  padding-left: 400px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+/* .dp-5device_img {
+
+}
+ 
+.dp-6device_box-service {
+  
+} */
+
+.dp7-device_box-row {
+  display: flex;
+  text-align: center;
+  margin: 14px 0 26px;
+  width: 100%;
+}
+
+.dp8-device_box-delivery {
+  list-style: none;
+  color: #1d1d1f;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.dp9-device_box-text {
+  padding-left: 90px;
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 6px 0 0;
+}
+
+.dp10-device_box-contact {
+  border-top: 1px solid #d2d2d7;
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-align: center;
+}
+
+
+.dp11-device_chat {
+  padding: 27px 0;
+  text-align: center;
+  color: #1d1d1f;
+}
+
+.dp12-device_text {
+  padding-top: 6px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.dp13-decice_context {
+  display: inline-block;
+}
+
+/* .device_column-large {
+
+} */
+
+
+
+/* -----------------The right part----------------- */
+
+.dc1-device_column-large {
+  padding-left: 50px;
+}
+
+.dc2-vjnkiqb {
+
+}
+.dc3-nayxonh {
+
+}
+.dc4-fnajlyc {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 600;
+  letter-spacing: 0;
+  font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding-bottom: 11px;
+}
+
+.dc5-gnkfcmd {
+  font-size: 25px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  display: block;
+  color: #bf4800;
+}
+
+.dc6-iljrhqv {
+  padding: 2px 0 0;
+}
+
+.dc7-ypnxdpj {
+  border-top: 1px solid #d2d2d7;
+  padding-top: 24px;
+}
+
+.dc8-rqigcsf {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+}
+
+.dc9-geqolko {
+  display: inherit;
+}
+
+.dc10-vtlsess {
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 1.42859;
+  font-weight: 400;
+  letter-spacing: -.016em;
+  font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-top: -7px;
+}
+
+.dc11-sluoenu {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dc12-rheowfh {
+  width: 400px;
+  height: 80px;
+  padding-top: 20px;
+}
+
+.dc13-kolarab {
+  font-size: 17px;
+  line-height: 1.23536;
+  font-weight: 900;
+  letter-spacing: -.022em;
+  font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  min-height: 4.88235rem;
+}
+
+.dc13-kolarab:hover {
+  background-color: #333;
+  color: white;
+}
+
+.dc13-kolarab:focus {
+  background-color: #333;
+  color: white;
+}
+
+
+.dc14-bxxaezi {
+
+}
+
+.dc15-vxecgom {
+
+}
+
+.dc16-xnnoocr {
+
+}
+
+
+.dc17-fcrchvw {
+  display: flex;
+  margin-top: 10px;
+}
+
+.dc18-phgykyv {
+
+  display: flex;
+  margin-top: 9px;
+}
+
+.dc19-qkpgjff {
+  margin-top: 20px;
+  padding-left: 150px;
+}
+
+.dc20-ucmjosn {
+  padding-right: 216px;
+}
+
+.dc21-tsrajjn {
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.dc22-optgzyb {
+  padding-left: 10px;
+}
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+.dc23-egdlzu {
+  text-align: center;
+}
+
+.dc24-rnnuxs {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+}
+
+.dc25-vqggck {
+  padding-left: 660px;
+  display: flex;
+}
+
+.dc26-lhqiqn {
+  width: 250px;
+  height: 330px;
+  
+  background-color: aqua;  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.dc27-xaftjm {
+  margin-left: 80px;
+  width: 250px;
+  height: 330px;
+
+  background-color: #0066CC;  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}

@@ -1,0 +1,35 @@
+.dummy_intro {
+  background-image: url(../images/intro2.jpg); 
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  
+}
+
+.dummy_text {
+  padding-left: 800px;
+  padding-top: 250px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  font: inherit;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.dummy_button {
+  cursor: pointer;
+  padding-left: 800px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  font: inherit;
+  font-family: MBCorpo Title,DaimlerCAC-Regular,serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+}
