@@ -1,0 +1,292 @@
+.financing_intro {
+  width: 1905px;
+}
+
+.f1-fbpwmraeql {
+  width: 1905px;
+  height: 550px;
+  background-image: url(../images/Financing/Background-2.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.f2-smcslsamxe {
+  width: 1575px;
+  height: 550px;
+  margin-left: 153px;
+
+  background-image: url(../images/Financing/Background-3.webp);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.f3-lykownhswb {
+  padding-top: 120px;
+  padding-left: 200px;
+  text-align: start;
+}
+
+.f4-aqgumihysv {
+  font-family: MBCorpoATitleCond-Regular-Web, DaimlerCAC-Regular, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  color: #fff;
+}
+
+.f5-uvuctbpdpn {
+  font-family: MBCorpoSTitle-Regular-Web, DaimlerCS-Regular, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  width: 320px;
+}
+
+.f6-litwujtcmh {
+  padding-top: 10px;
+}
+
+.f7-iuzmcigbcr {
+  width: 161px;
+  height: 40px;
+  text-align: center;
+  padding: 8px 23px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #fff;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background .1s linear, color .1s linear;
+}
+
+.f7-iuzmcigbcr:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.f8-hzldrsznpg {
+  padding-top: 80px;
+  padding-left: 295px;
+  background-color: #000;
+  color: #fff;
+  height: 200px;
+}
+
+.f9-hdfttwyvyc {
+  font-family: MBCorpoSTitle-Regular-Web, DaimlerCS-Regular, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+.f10-blxutlkhus {
+  width: 60px;
+  background-color: #111;
+  border-bottom: 1px solid white;
+}
+
+.f11-vyigmnyvai {
+  padding-top: 15px;
+  font-family: MBCorpoATitleCond-Regular-Web, DaimlerCAC-Regular, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 30px
+}
+
+/* -------------Lower part------------- */
+
+.f12-ndealaiuzj {
+
+}
+
+.f13-fopzvtdpni {
+  background-color: #000;
+  height: 550px;
+}
+
+.f14-yfxbtzgqiv {
+  display: flex;
+  margin-left: 200px;
+  width: 1500px;
+  height: 600px;
+  background-color: #000;
+  font-family: MBCorpoSTitle-Regular-Web, DaimlerCS-Regular, Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+.f15-vlrusqygfs {
+  margin-top: 50px;
+  background-color: #000;
+  margin-left: 100px;
+  width: 364px;
+}
+
+.f16-jkolzjbhca {
+
+}
+
+.f17-fdhtrsdsb {
+  width: 364px;
+  height: 250px;
+  background-image: url(../images/Financing/MacBook\ Air.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.f18-hopsiyqnhv {
+  margin-bottom: 15px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.f18-hopsiyqnhv:hover {
+  color: #00ADEF;
+}
+
+
+
+.f19-lscquorzhj {
+  cursor: pointer;
+}
+
+.f19-lscquorzhj:hover {
+  color: #00ADEF;
+}
+
+.f20-jziigcwrzo{
+  margin-top: 50px;
+  background-color: #000;
+  margin-left: 100px;
+  width: 364px;
+}
+
+.f21-dvgwizicbl {
+
+}
+
+.f22-agtwrzomot {
+  width: 364px;
+  height: 250px;
+  background-image: url(../images/Financing/iMac.jpeg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.f23-vnpfdmymgu {
+  margin-bottom: 15px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.f23-vnpfdmymgu:hover {
+  color: #00ADEF;
+}
+
+.f24-xjwouxdkde {
+  cursor: pointer;
+}
+
+.f24-xjwouxdkde:hover {
+  color: #00ADEF;
+}
+
+.f25-iizkxegndf {
+  margin-top: 50px;
+  background-color: #000;
+  margin-left: 100px;
+  width: 364px;
+}
+
+.f26-ljazsbshro {
+
+}
+
+.f27-mdnseertkn {
+  width: 364px;
+  height: 250px;
+  background-image: url(../images/Financing/MacBook\ Air.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;;
+}
+
+.f28-zkxeyygmsn {
+  margin-bottom: 15px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.f28-zkxeyygmsn:hover {
+  color: #00ADEF;
+}
+
+/* -------------Lower part 2 ------------- */
+
+.f29-psgqzmount {
+  cursor: pointer;
+}
+
+.f29-psgqzmount:hover {
+  color: #00ADEF;
+}
+
+
+.f30-fdfgscsxb {
+  width: 364px;
+  height: 250px;
+  background-image: url(../images/Financing/Apple\ Watch\ Series\ 7.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.f31-sdbsvcsd {
+  width: 364px;
+  height: 250px;
+  background-image: url(../images/Financing/Apple\ Watch\ SE.jpeg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.f32-yrjrreerv {
+  width: 364px;
+  height: 250px;
+  background-image: url(../images/Financing/Apple\ Watch\ Series\ 3.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.f33-oiokhkjlb {
+  width: 364px;
+  height: 250px;
+  background-image: url(../images/Financing/Iphone\ 13.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+
+.f34-jhgfnhgn {
+  width: 364px;
+  height: 250px;
+  background-image: url(../images/Financing/Iphone\ 12.jpeg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.f35-fdbxxxzcd {
+  width: 364px;
+  height: 250px;
+  background-image: url(../images/Financing/Iphone\ 11.webp);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}

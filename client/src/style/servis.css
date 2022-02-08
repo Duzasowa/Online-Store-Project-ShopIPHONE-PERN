@@ -1,0 +1,212 @@
+.service_intro {
+  width: 1905px;
+}
+
+.s1-rhvfncg {
+  width: 1905px;
+  height: 550px;
+  background-image: url(../images/Servis/backgroud-1.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+} 
+
+.s2-ksrcbio {
+  width: 1575px;
+  height: 550px;
+  margin-left: 153px;
+
+  background-image: url(../images/Servis/backgroud-2.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.s3-uadfriq {
+  padding-top: 120px;
+  padding-left: 200px;
+  text-align: start;
+}
+
+.s4-hpopvjv {
+  font-family: MBCorpoATitleCond-Regular-Web, DaimlerCAC-Regular, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  color: #fff;
+}
+
+.s5-yadykml {
+  font-family: MBCorpoSTitle-Regular-Web, DaimlerCS-Regular, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  width: 320px;
+}
+
+.s6-yadykml {
+  padding-top: 10px;
+}
+
+.s7-eawbgak{
+  width: 161px;
+  height: 40px;
+  text-align: center;
+  padding: 8px 23px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #fff;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background .1s linear, color .1s linear;
+}
+
+.s7-eawbgak:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.s8-awnygev {
+  padding-top: 50px;
+  padding-left: 200px;
+  background-color: #111;
+  color: #fff;
+  height: 200px;
+}
+
+.s9-bpzegot {
+  font-family: MBCorpoSTitle-Regular-Web, DaimlerCS-Regular, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  
+}
+
+.s10-zogmunx {
+  width: 60px;
+  background-color: #111;
+  border-bottom: 1px solid white;
+}
+
+.s11-quzcwmd {
+  padding-top: 15px;
+  font-family: MBCorpoATitleCond-Regular-Web, DaimlerCAC-Regular, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 30px;
+}
+
+.s12-ydwvvts {
+}
+
+.s13-aignprq {
+  background-color: #000;
+  height: 600px;
+}
+
+.s14-orhyjjv {
+  margin-left: 200px;
+  width: 1500px;
+  height: 600px;
+  background-color: #000;
+}
+
+.s14-orhyjjv {
+  display: flex;
+}
+
+.s15-qsikdgg {
+  color: #ffff;
+}
+
+.s16-pmnonuw {
+  padding-top: 30px;
+  font-family: MBCorpoATitleCond-Regular-Web, DaimlerCAC-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  margin-bottom: -16px;
+}
+
+.s17-uabjnpg {
+  padding-bottom: 10px;
+}
+
+.s18-ogickpx {
+  width: 900px;
+  padding-bottom: 10px;
+}
+
+.s19-mxplcse {
+  width: 900px;
+  padding-bottom: 10px;
+}
+
+.s20-qwawqjw {
+  width: 900px;
+  padding-bottom: 10px;
+}
+
+.s21-jwtqqww {
+
+}
+
+.s22-leyshqm {
+  margin-left: 50px;
+  width: 600px;
+  height: 600px;
+}
+
+.s23-xtriiwk {
+  margin-top: 40px;
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(../images/Servis/img-1.jpeg);
+  height: 350px;
+  width: 600px;
+}
+
+.s24-aergwfew {
+  padding-top: 50px;
+  padding-left: 200px;
+  background-color: #000;
+  color: #fff;
+  height: 200px
+}
+
+.s25-rccpsym {
+  background-color: #000;
+  height: 700px;
+}
+
+.s26-wcmyrpu {
+  margin-left: 200px;
+  width: 1470px;
+  height: 700px;
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(../images/Servis/img-2.webp);
+}
+
+.s27-bmsvdli {
+  padding-top: 50px;
+  padding-left: 200px;
+  background-color: #000;
+  color: #fff;
+  height: 250px;
+}
+
+.s28-dimchmi {
+  width: 900px;
+  font-family: MBCorpoSTitle-Regular-Web, DaimlerCS-Regular, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+.s29-gbxpfcz {
+  padding-top: 15px;
+  font-family: MBCorpoATitleCond-Regular-Web, DaimlerCAC-Regular, Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 16px;
+}

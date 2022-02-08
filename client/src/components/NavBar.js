@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import {Context} from "../index";
-import { ADMIN_ROUTE, DUMMY_ROUTE } from '../utils/consts';
+import { ADMIN_ROUTE, DUMMY_ROUTE, SERVIS_ROUTE, FINANCING_ROUTE } from '../utils/consts';
 import {observer} from "mobx-react-lite";
 import { useHistory } from 'react-router-dom';
 import '../style/navbar.css';
@@ -11,10 +11,6 @@ import Consulting from '../Popups/Consulting';
 const NavBar = observer(() => {
   const {user} = useContext(Context)
   const history = useHistory()
-
-  const storege = () => {
-    localStorage.clear();
-  }
 
   const logOut = () => {
     user.setUser({})
@@ -71,10 +67,10 @@ const NavBar = observer(() => {
                 <a class="menu_text" href="#consulting">Online consulting</a>
               </button>
               <button class="menu_button">
-                <a class="menu_text" onClick={() => history.push(DUMMY_ROUTE)} >Purchase and financing</a>
+                <a class="menu_text" onClick={() => history.push(FINANCING_ROUTE)} >Purchase and financing</a>
               </button>
               <button class="menu_button">
-                <a class="menu_text" onClick={() => history.push(DUMMY_ROUTE)} >Servis</a>
+                <a class="menu_text" onClick={() => history.push(SERVIS_ROUTE)} >Servis</a>
               </button>
               <button class="menu_button">
                 <a class="menu_text" onClick={() => history.push(DUMMY_ROUTE)} >Technologies and innovations</a>
