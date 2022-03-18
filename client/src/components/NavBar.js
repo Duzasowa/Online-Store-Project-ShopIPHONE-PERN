@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
 import {Context} from "../index";
-import { ADMIN_ROUTE, DUMMY_ROUTE, SERVIS_ROUTE, FINANCING_ROUTE } from '../utils/consts';
+import $ from 'jquery'; 
+import { DUMMY_ROUTE, SERVIS_ROUTE, FINANCING_ROUTE } from '../utils/consts';
 import {observer} from "mobx-react-lite";
 import { useHistory } from 'react-router-dom';
 import '../style/navbar.css';
@@ -8,18 +9,25 @@ import '../style/popup.css';
 import Popup from '../Popups/Popup';
 import Consulting from '../Popups/Consulting';
 
+ 
+
+function barsik(event){
+  document.querySelector('#nav-toggle').onclick = function(event){
+    event.preventDefault();
+  
+    $(this).toggleClass("active");
+    $("#header_navigation_menu").toggleClass("active");
+  
+  }
+}
+
 const NavBar = observer(() => {
   const {user} = useContext(Context)
   const history = useHistory()
 
-  const logOut = () => {
-    user.setUser({})
-    user.setIsAuth(false)
-    localStorage.clear()
-  }
 
   return (
-    <div class="header">
+    <div class="header header--fixed" id="header">
       {/* /-------------The upper part of Navbar-----------/ */}
       <div class="header_wrapper">
         <div class="header_top">
@@ -59,50 +67,39 @@ const NavBar = observer(() => {
         </div>
 
         {/* /---------------The lower part of Navbar-----------/ */}
-        <div class="header_desktop">
+        <div class="header_desktop"  id="header_desktop">
           <div class="header_navigation">
-            <div class="header_navigation_menu">
-              <button class="menu_button">
+            
+            <div class="header_navigation_menu" id="header_navigation_menu">
+              <a class="menu_button" >
                 <Consulting/>
                 <a class="menu_text" href="#consulting">Online consulting</a>
-              </button>
-              <button class="menu_button">
+              </a>
+              <a class="menu_button">
                 <a class="menu_text" onClick={() => history.push(FINANCING_ROUTE)} >Purchase and financing</a>
-              </button>
-              <button class="menu_button">
+              </a>
+              <a class="menu_button">
                 <a class="menu_text" onClick={() => history.push(SERVIS_ROUTE)} >Servis</a>
-              </button>
-              <button class="menu_button">
+              </a>
+              <a class="menu_button">
                 <a class="menu_text" onClick={() => history.push(DUMMY_ROUTE)} >Technologies and innovations</a>
-              </button>
-              {user.isAuth ?
-                <div class="main_button">
-                  <div class="menu_button"
-                    onClick={() => history.push(ADMIN_ROUTE)} 
-                  >
-                    Admin Panel
-                  </div>
-                  <div class="menu_button"
-                    onClick={() => logOut()}
-                  >
-                    Log off
-                  </div>
-                </div>
-                :
-                null
-                // <div class="menu_button" style={{paddingLeft: 710}} >
-                //   {/* <a variant={"outline-light"} onClick={() => history.push(LOGIN_ROUTE)}>Authorization</a> */}
-                // </div>
-              }
-              
-
+              </a>
             </div>
+
+            <div class="nav-toggle" id="nav-toggle" onClick={barsik}>
+              <span class="nav-toggle__item">Menu</span>
+            </div>
+              
           </div>
         </div>
+
 
       </div>
     </div>
   );
 });
+
+
+
 
 export default NavBar;

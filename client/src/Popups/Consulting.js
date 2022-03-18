@@ -16,7 +16,7 @@ const Consulting = () => {
           <div class="rgjhzj">
             <div class="jgygwt">
               <div class="popups_text">
-                <a class="cqxedz" onClick={() => history.push(IPHONEPAGE_ROUTE)}>
+                <a class="cqxedz" onClick={() => {history.push(IPHONEPAGE_ROUTE); window.location.reload();}}>
                   <p>Iphone 13</p>
                 </a>
               </div>

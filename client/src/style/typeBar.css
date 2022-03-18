@@ -59,3 +59,11 @@
   line-height: 24px;
   background: none;
 }
+
+
+@media (max-width: 900px) {
+  .wb8_typebar {
+    width: 30%;
+
+  }
+}

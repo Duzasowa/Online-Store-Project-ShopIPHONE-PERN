@@ -9,7 +9,7 @@ import '../style/deviceItem.css'
 const DeviceItem = ({device}) => {
     const history = useHistory()
     return (
-        <Col md={4} className={"mt-3"} >
+        <div class="item_col">
             <div class="di2-oeulnfy">
                 <div class="di3-sptuhsw">
                     <div class="di4-xcmbbfi">
@@ -41,7 +41,7 @@ const DeviceItem = ({device}) => {
                     
                 </div>
             </div>
-        </Col>
+        </div>
     );
 };
 

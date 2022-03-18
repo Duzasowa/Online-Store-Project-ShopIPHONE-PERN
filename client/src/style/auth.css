@@ -1,0 +1,90 @@
+.auth_intro {
+  width: 100%;
+  height: 1000px;
+  background-image: url(../images/Auth/background-auth1.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.auth_container {
+  padding-top: 280px;
+  padding-left: 600px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.auth_card-top {
+  width: 645px;
+  height: 45px;
+  background-color: black;
+}
+
+.auth_card {
+  width: 645px;
+  height: 361px;
+  padding: 17px 50px;
+
+  background-color: #fff;
+}
+
+.auth_card-text {
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: .32px;
+  margin-top: 24px;
+  margin-bottom: 2px;
+  display: inline-block;
+
+  font-family: DaimlerCAC-Regular, serif;
+}
+
+
+.auth_card-bottom {
+  width: 645px;
+  height: 60px;
+  background-color: #000;
+}
+
+.auth_card-top-text {
+  color: #fff;
+  font-family: DaimlerCS-Regular, sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.auth_card-top-bottom {
+  color: #999;
+  font-family: DaimlerCS-Regular, sans-serif;
+  font-size: 14px;
+  padding-top: 17px;
+  padding-left: 400px;
+}
+
+.auth_login-registration-buttom {
+  width: 548px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 12px;
+  border: 1px solid #fff;
+
+
+  background-color: #0088c6;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 11px 23px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background .1s linear, color .1s linear;
+}
+
+.auth_login-registration-buttom:hover {
+  background-color: #333;
+  color: white;
+}
+

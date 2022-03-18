@@ -42,15 +42,16 @@ hr {
 }
 
 .intro{
-  width: 1893px;
+  width: 100%;
 }
 
 /* <------------------------OPEN INTRO CONTAINER (BANER)-------------------> */
 .intro_container{
+  margin-top: 140px;
   height: 751px;
-  width: 1905px;
+  width: 100%;
   color: gray;
-  z-index: -1;
+
   /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
   background-image: url(../images/intro.jpg);  
   text-align: center;

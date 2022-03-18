@@ -1,6 +1,11 @@
 .admin_header{
   width: 100%;
-  height: 700px;
+  height: 1000px;
+  background-color: rgb(51, 51, 51);
+  /* background-image: url(../images/Auth/background-auth1.jpg);  
+  text-align: center;
+  -webkit-background-size: cover;
+  background-size: cover; */
 
 }
 
@@ -23,21 +28,24 @@
 }
 
 .admin_container{
-  padding: 140px 300px 100px 300px;
+  padding: 240px 300px 100px 300px;
 }
 
 .admin_inner{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+
+  grid-auto-flow: column;
+  justify-content: center;
 }
 
 .admin_item{
+  margin-left: 20px;
   flex-direction: column;
   display: flex;
   align-items: center;
-  width: 250px;
-  height: 250px;
-  background-color: #666;
+  width: 300px;
+  height: 320px;
+  background-color: #64686b;
 }
 
 .admin_image{
@@ -71,4 +79,10 @@
   text-align: center;
   -webkit-background-size: cover;
   background-size: cover;
+}
+
+.stage_button {
+  text-align: center;
+  width: 150px;
+  margin-top: 70px;
 }

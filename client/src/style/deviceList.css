@@ -1,3 +1,13 @@
+
+
+.device_item-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-rows: repeat(3, 380px);
+  grid-auto-flow: column;
+}
+
+
 /* .bb1-zpzqvmo {
   
 }
@@ -5,3 +15,11 @@
 .bb2-iinwpqq {
 
 } */
+
+@media (max-width: 900px) {
+  .device_item-row {
+    grid-auto-flow: row;
+
+  }
+
+}

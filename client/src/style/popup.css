@@ -48,7 +48,6 @@ body {
   justify-content: center;
   padding: 30px 10px;
   margin-left: 1200px;
-  padding-bottom: 500px;
 }
 
 .popup_area{
@@ -60,10 +59,12 @@ body {
 }
 
 .popup_content {
+  cursor: grab;
   background-color: #fff;
   color: #000;
   max-width: 800px;
-  width: 330px;
+  width: 454px;
+  height: 300px;
   padding: 30px;
   position: relative;
   transition: all 0.8s ease 0s;
@@ -106,14 +107,14 @@ body {
 
 .popup_button-up {
   margin-top: 20px;
-  width: 270px;
+  width: 400px;
   padding: 11px 23px;
   display: inline-block;
   vertical-align: top;
   border: 1px solid #fff;
 
 
-  background-color: #00adef;
+  background-color: #0088c6;
   font-size: 14px;
   font-weight: 700;
   color: #fff;
@@ -130,7 +131,7 @@ body {
 }
 
 .popup_button-down {
-  width: 270px;
+  width: 400px;
   padding: 11px 23px;
   display: inline-block;
   vertical-align: top;

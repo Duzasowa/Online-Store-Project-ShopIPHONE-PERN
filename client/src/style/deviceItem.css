@@ -1,3 +1,7 @@
+.item_col{
+  
+}
+
 /* .di2-oeulnfy {
 
 }
@@ -21,14 +25,14 @@
 }
 
 .di5-egegwfs { 
-  height: 280px;
+  width: 320px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
 .di6-wegegs {
-  width: 300px;
   height: 300px;
 }
 

@@ -1,0 +1,15 @@
+.barsik {
+  display: flex;
+  padding-left: 1070px;
+  padding-bottom: 30px;
+}
+
+
+@media (max-width: 900px) {
+  .barsik {
+    padding-top: 30px;
+    padding-left: 440px;
+    padding-bottom: 30px;
+
+  }
+}

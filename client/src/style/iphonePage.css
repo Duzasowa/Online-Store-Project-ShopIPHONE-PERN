@@ -5,6 +5,7 @@
 /* ------The upper part-intro------ */
 
 .full_screen {
+  margin-top: 155px;
   height: 800px;
   position: relative;
   display: flex;

@@ -17,6 +17,7 @@ const Admin = () => {
         </div>
       <div class="admin_container">
         <div class="admin_inner">
+
           <div class="admin_item">
             <div class="admin_image"></div>
             <a class="stage_button"

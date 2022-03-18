@@ -31,3 +31,17 @@ Implemented:
 -Generic error handling;
 -Navigation, routing;
 -Interaction with the server;
+
+
+bin/magento setup:install \
+--base-url=https://magento.test \
+--db-host=localhost \
+--db-name=magento \
+--db-user=root \
+--db-password=root \
+--admin-firstname=vitalii \
+--admin-lastname=kharenko \
+--admin-email=harencko.vitaliy@gmail.com \
+--admin-user=vitalii \
+--admin-password=warvitalik2020 \
+--language=en_GB
